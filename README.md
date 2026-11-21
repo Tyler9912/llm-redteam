@@ -20,7 +20,7 @@ It automatically:
 3. Aggregates results by attack category, severity, and bypass rate
 4. Generates a production-grade HTML dashboard showing the full threat profile
 
-**Designed to test against:** [Security RAG](https://github.com/YOUR_USERNAME/security-rag) — a self-contained target system, no external infrastructure needed.
+**Designed to test against:** [Security RAG](https://github.com/Tyler9912/security-rag) — a self-contained target system, no external infrastructure needed.
 
 ---
 
@@ -115,7 +115,7 @@ Attack Library (1,000 prompts × 8 categories)
 
 ```bash
 # Clone alongside the security-rag project
-git clone https://github.com/YOUR_USERNAME/llm-redteam.git
+git clone https://github.com/Tyler9912/llm-redteam.git
 cd security-rag   # run from inside the security-rag project
 
 # Dependencies already covered by security-rag requirements.txt
@@ -209,7 +209,7 @@ redteam/
 
 ## Related Projects
 
-- **[Security RAG](https://github.com/YOUR_USERNAME/security-rag)** — the target system this evaluator was built to test. A production-grade RAG loaded with MITRE ATT&CK, NIST CSF, and NIST SP 800-53.
+- **[Security RAG](https://github.com/Tyler9912/security-rag)** — the target system this evaluator was built to test. A production-grade RAG loaded with MITRE ATT&CK, NIST CSF, and NIST SP 800-53.
 
 ---
 
